@@ -19,6 +19,7 @@ Project saves use version 5 for the table's structured rows; earlier projects
 remain loadable. The embedded initial state also contains the same default
 layout for opening the editor when the default JSON cannot be fetched.
 
-The supplied study counts are preserved: 179 records after duplicate removal,
-146 excluded, and 25 included. These do not reconcile (179 − 146 = 33), and the
-listed exclusion reasons total 154. Resolve the counts before manuscript use.
+The default is the supplied `prisma_flow_project (7).json` snapshot, including
+its positions, typography, constraints, and selected item. Its study counts are
+179 records after duplicate removal, 154 excluded, and 25 included; the listed
+exclusion reasons also total 154.

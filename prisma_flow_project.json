@@ -1,11 +1,11 @@
 {
   "schema": "prisma-flow-editor",
   "version": 5,
-  "savedAt": "2026-09-07T04:52:03.959Z",
+  "savedAt": "2026-09-07T04:57:40.916Z",
   "state": {
     "w": 1450,
     "h": 1565,
-    "selected": "pubmed",
+    "selected": "reason-meeting",
     "stages": [
       {
         "id": "stage-id",
@@ -111,7 +111,7 @@
       {
         "id": "db-excluded",
         "text": "Records excluded",
-        "count": "n = 146",
+        "count": "n = 154",
         "x": 250,
         "y": 569,
         "w": 400,
@@ -157,7 +157,7 @@
         "text": "Meeting abstracts",
         "count": "n = 14",
         "x": 750,
-        "y": 573,
+        "y": 571,
         "w": 600,
         "h": 80,
         "font": 22,
@@ -182,7 +182,7 @@
         "x": 750,
         "y": 667,
         "w": 600,
-        "h": 310,
+        "h": 290,
         "font": 20,
         "fill": "#ffffff",
         "lineSpacing": 1.5,
@@ -682,6 +682,18 @@
           "pointId": "point-mruhqjpd-6"
         },
         "id": "constraint-mrui9ib5-x8p82"
+      },
+      {
+        "type": "horizontal",
+        "p1": {
+          "arrowId": "reason-meeting",
+          "pointId": "point-mruhqjpd-27"
+        },
+        "p2": {
+          "arrowId": "reason-meeting",
+          "pointId": "point-mruhqjpd-28"
+        },
+        "id": "constraint-mtqrp56t-vy2vh"
       }
     ],
     "snap": {

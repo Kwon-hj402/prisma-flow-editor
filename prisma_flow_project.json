@@ -1,11 +1,11 @@
 {
   "schema": "prisma-flow-editor",
-  "version": 4,
-  "savedAt": "2026-07-21T10:23:26.604Z",
+  "version": 5,
+  "savedAt": "2026-09-07T04:45:37.496Z",
   "state": {
     "w": 1450,
-    "h": 1080,
-    "selected": "duplicates",
+    "h": 1370,
+    "selected": "pubmed",
     "stages": [
       {
         "id": "stage-id",
@@ -47,7 +47,7 @@
         "x": 18,
         "y": 856,
         "w": 58,
-        "h": 172,
+        "h": 123,
         "font": 15,
         "fill": "#dbeef3"
       }
@@ -80,7 +80,7 @@
         "text": "Citation searching",
         "count": "n = 113",
         "x": 780,
-        "y": 69.2,
+        "y": 70,
         "w": 290,
         "h": 70,
         "font": 19,
@@ -91,7 +91,7 @@
         "text": "Duplicate records removed",
         "count": "n = 156",
         "x": 900,
-        "y": 219.2,
+        "y": 220,
         "w": 450,
         "h": 68,
         "font": 19,
@@ -113,7 +113,7 @@
         "text": "Records excluded",
         "count": "n = 146",
         "x": 390,
-        "y": 539.3,
+        "y": 541.5,
         "w": 400,
         "h": 75,
         "font": 19,
@@ -122,9 +122,9 @@
       {
         "id": "db-included",
         "text": "Studies included in review",
-        "count": "n = 33",
+        "count": "n = 25",
         "x": 370,
-        "y": 940,
+        "y": 877,
         "w": 440,
         "h": 82,
         "font": 19,
@@ -177,14 +177,48 @@
       },
       {
         "id": "picos",
-        "text": "Other exclusion criteria\n(a) Ineligible population (n = 23)\n(b) No stroboscopic vision training intervention (n = 49)\n(c) No equivalent exercise control group (n = 27)\n(d) No motor or cognitive performance outcomes (n = 9)",
+        "text": "Other exclusion criteria\n(a) No human participants  (n = 23)\n(b) No stroboscopic vision training intervention (n = 49)\n(c) No equivalent exercise control group (n = 27)\n(d) No motor or cognitive performance outcomes (n = 9)\n(e) No eligible randomized controlled trial design (n = 8)",
         "count": "",
         "x": 900,
-        "y": 630,
+        "y": 625,
         "w": 450,
-        "h": 174,
+        "h": 212,
         "font": 16,
         "fill": "#ffffff"
+      },
+      {
+        "id": "picos-inclusion",
+        "kind": "picos-table",
+        "text": "PICOS Inclusion Criteria",
+        "count": "",
+        "x": 18,
+        "y": 1015,
+        "w": 1332,
+        "h": 315,
+        "font": 19,
+        "fill": "#ffffff",
+        "rows": [
+          {
+            "label": "P (Population)",
+            "text": "Individuals of any age or health status who underwent stroboscopic visual training"
+          },
+          {
+            "label": "I (Intervention)",
+            "text": "Exercise intervention incorporating stroboscopic visual training (STV)"
+          },
+          {
+            "label": "C (Comparison)",
+            "text": "Control group performing equivalent exercise without stroboscopic"
+          },
+          {
+            "label": "O (Outcome)",
+            "text": "Motor performance and cognitive performance"
+          },
+          {
+            "label": "S (Study design)",
+            "text": "Randomized controlled trials (RCTs) including both parallel and crossover designs with pre-post measurements"
+          }
+        ]
       }
     ],
     "arrows": [
@@ -231,12 +265,12 @@
         "head": false,
         "points": [
           {
-            "x": 918.2,
-            "y": 140.8,
+            "x": 925,
+            "y": 140,
             "pid": "point-mruhqjpd-5"
           },
           {
-            "x": 918.2,
+            "x": 925,
             "y": 190,
             "pid": "point-mruhqjpd-6"
           }
@@ -253,7 +287,7 @@
             "pid": "point-mruhqjpd-7"
           },
           {
-            "x": 918.2,
+            "x": 925,
             "y": 190,
             "pid": "point-mruhqjpd-8"
           }
@@ -266,13 +300,13 @@
         "head": true,
         "points": [
           {
-            "x": 590.2,
-            "y": 190.7,
+            "x": 590,
+            "y": 190,
             "pid": "point-mruhqjpd-9"
           },
           {
-            "x": 590.2,
-            "y": 307.7,
+            "x": 590,
+            "y": 310,
             "pid": "point-mruhqjpd-10"
           }
         ]
@@ -284,13 +318,13 @@
         "head": true,
         "points": [
           {
-            "x": 590.2,
-            "y": 190.7,
+            "x": 590,
+            "y": 190,
             "pid": "point-mruhqjpd-11"
           },
           {
-            "x": 590.2,
-            "y": 190.7,
+            "x": 590,
+            "y": 190,
             "pid": "point-mruhqjpd-14"
           }
         ],
@@ -305,12 +339,12 @@
         "points": [
           {
             "x": 590,
-            "y": 391.3,
+            "y": 392,
             "pid": "point-mruhqjpd-15"
           },
           {
             "x": 590,
-            "y": 536.3013916015625,
+            "y": 541.5,
             "pid": "point-mruhqjpd-16"
           }
         ]
@@ -323,13 +357,13 @@
         "head": true,
         "points": [
           {
-            "x": 589.3,
-            "y": 614.3013916015625,
+            "x": 590,
+            "y": 616.5,
             "pid": "point-mruhqjpd-17"
           },
           {
-            "x": 589.3,
-            "y": 938.4,
+            "x": 590,
+            "y": 877,
             "pid": "point-mruhqjpd-18"
           }
         ]
@@ -342,12 +376,12 @@
         "points": [
           {
             "x": 790,
-            "y": 578.7013916015625,
+            "y": 579,
             "pid": "point-mruhqjpd-19"
           },
           {
             "x": 825,
-            "y": 578.7013916015625,
+            "y": 579,
             "pid": "point-mruhqjpd-20"
           }
         ]
@@ -364,7 +398,7 @@
           },
           {
             "x": 825,
-            "y": 735,
+            "y": 731,
             "pid": "point-mruhqjpd-22"
           }
         ]
@@ -449,32 +483,33 @@
         "points": [
           {
             "x": 825,
-            "y": 735,
+            "y": 731,
             "pid": "point-mruhqjpd-31"
           },
           {
-            "x": 901,
-            "y": 735,
+            "x": 900,
+            "y": 731,
             "pid": "point-mruhqjpd-32"
           }
         ]
       },
       {
         "id": "custom-arrow-1784628558360",
-        "label": "New arrow",
+        "label": "Duplicate removal branch",
         "head": true,
         "points": [
           {
-            "x": 590.5,
-            "y": 253.8,
+            "x": 590,
+            "y": 254,
             "pid": "point-mruhrkm0-33"
           },
           {
-            "x": 899.3,
-            "y": 253.8,
+            "x": 900,
+            "y": 254,
             "pid": "point-mruhrkm0-34"
           }
-        ]
+        ],
+        "to": "duplicates"
       }
     ],
     "constraints": [

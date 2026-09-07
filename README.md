@@ -11,6 +11,10 @@ table to edit its title, five criteria, position, dimensions, and text size.
 Long criteria wrap automatically, and text shrinks to fit the available height.
 The table is included in project JSON, SVG, and PNG exports.
 
+The default figure uses 22 px box/table text, 20 px exclusion text, and 18 px
+stage labels. The wider reason column keeps the supplied exclusion criteria on
+single lines, with 1.5 line spacing and an additional 14 px between criteria.
+
 Project saves use version 5 for the table's structured rows; earlier projects
 remain loadable. The embedded initial state also contains the same default
 layout for opening the editor when the default JSON cannot be fetched.
